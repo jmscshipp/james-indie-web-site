@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Tell me something</title>
+  </head>
+  <body>
+    <a href="index.html">back</a>
+    <p>Send me a message, I'll get back to you when I can :)</p>
+
+    <form id="contact-form" class="invisible">
+      <input type="text" name="name" placeholder="(Your name)" />
+      <input type="email" name="email" placeholder="(Your email)" required />
+      <textarea
+        name="message"
+        placeholder="(Write your message...)"
+        required
+      ></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p id="form-complete-info" class="invisible">
+      Got it! Thanks for reaching out
+    </p>
+  </body>
+  <script type="module" src="script.js"></script>
+</html>
