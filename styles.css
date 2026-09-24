@@ -22,3 +22,10 @@
 .invisible {
   display: none;
 }
+
+.site-screenshot {
+  width: 700px;
+  height: auto;
+  border: 1px solid grey;
+  margin-top: 10px;
+}
