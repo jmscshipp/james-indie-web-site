@@ -29,3 +29,9 @@
   border: 1px solid grey;
   margin-top: 10px;
 }
+
+@media (max-width: 840px) {
+  .site-screenshot {
+    width: 100%;
+  }
+}
